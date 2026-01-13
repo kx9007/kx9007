@@ -31,9 +31,11 @@
 <div align="center">
   <img 
     src="https://github-immortality.vercel.app/api?username=kx9007" 
-    width="49%"
+    width="98%"
   />
-  <img width="49%" src="https://stats.justsong.cn/api/github?username=kx9007"/>
+</div>
+<div align="center">
+<img width="98%" src="https://stats.justsong.cn/api/github?username=kx9007"/>
 </div>
 
 <br/>
