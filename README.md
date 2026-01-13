@@ -1,13 +1,13 @@
 <!-- Header with animated shark -->
 <p align="center">
   <a href="https://github.com/kx9007">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=正则匹配一切，匹配不到她的心..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=我能给代码做无数次重构，却重构不了你对我的印象..." alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Animated welcome message -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=Welcome+to+my+Ocean+of+Code;Where+Creativity+Flows+Like+Waves;项目顺利上线，你却重未上线..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=抓包抓到凌晨，抓不到她的回应...;Git 能回滚到任意版本，却回不到我们初见的那天...;项目顺利上线，你却重未上线..." alt="Typing SVG" />
 </div>
 
 <!-- Fancy Social Links -->
