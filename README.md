@@ -33,7 +33,7 @@
 <!-- Profile Image with Glow Effect -->
 <div align="center">
   <img 
-    src="image/images.jpg" 
+    src="https://github-immortality.vercel.app/api?username=kx9007" 
     width="300"
     alt="profile image"
     align="center"
