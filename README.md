@@ -34,7 +34,7 @@
 <div align="center">
   <img 
     src="https://github-immortality.vercel.app/api?username=kx9007" 
-    width="300"
+    width="98%"
     alt="profile image"
     align="center"
     style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
