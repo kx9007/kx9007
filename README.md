@@ -37,6 +37,7 @@
     style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
   />
 </div>
+<br/><br/>
 <div align="center">  
 <img width="98%" src="https://api.seaya.link/web?type=file" />
 </div>
