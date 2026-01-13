@@ -7,7 +7,7 @@
 
 <!-- Animated welcome message -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=抓包抓到凌晨,抓不到她的回应...;代码能回滚到任意版本,却回不到我们初见的那天...;项目顺利上线，你却重未上线..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=抓包抓到凌晨,抓不到她的回应...;接口返回200，她返回404...;项目顺利上线，你却重未上线..." alt="Typing SVG" />
 </div>
 
 <!-- Fancy Social Links -->
