@@ -27,7 +27,7 @@
 </h3>
 
 <div align="center">
-  <img width="98%" src="https://web.kxlove.top/image/github.png" />
+  <img width="98%" src="https://api.seaya.link/web?type=file" />
 </div>
 
 <!-- Profile Image with Glow Effect -->
