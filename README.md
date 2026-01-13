@@ -34,7 +34,7 @@
     width="98%"
     alt="profile image"
     align="center"
-    style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;margin-bottom:5px"
+    style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
   />
 </div>
 <div align="center">  
