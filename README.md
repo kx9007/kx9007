@@ -36,9 +36,9 @@
     align="center"
     style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
   />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=kx9007"/>
 </div>
 
-<div align="center"><img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=kx9007"></div>
 <br/>
 <div align="center">  
 <img width="98%" src="https://api.seaya.link/web?type=file" />
