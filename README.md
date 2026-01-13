@@ -33,12 +33,12 @@
     src="https://github-immortality.vercel.app/api?username=kx9007" 
     width="49%"
   />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=kx9007"/>
+  <img width="49%" src="https://api.seaya.link/web?type=file"/>
 </div>
 
 <br/>
 <div align="center">  
-<img width="98%" src="https://api.seaya.link/web?type=file" />
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=kx9007" />
 </div>
 
 <!-- Achievements -->
