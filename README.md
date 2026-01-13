@@ -1,13 +1,13 @@
 <!-- Header with animated shark -->
 <p align="center">
   <a href="https://github.com/kx9007">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hi+there%2C+I'm+Blue+Sharky-shark+🦈" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=正则匹配一切，匹配不到她的心..." alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Animated welcome message -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=Welcome+to+my+Ocean+of+Code;Where+Creativity+Flows+Like+Waves;Let's+Dive+into+Something+Amazing!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=Welcome+to+my+Ocean+of+Code;Where+Creativity+Flows+Like+Waves;项目顺利上线，你却重未上线..." alt="Typing SVG" />
 </div>
 
 <!-- Fancy Social Links -->
@@ -27,12 +27,7 @@
 </h3>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kx9007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00A1D6&icon_color=00A1D6" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kx9007&theme=tokyonight&hide_border=true&background=0D1117&stroke=00A1D6&ring=00A1D6&fire=00A1D6" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kx9007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00A1D6" />
+  <img width="98%" src="https://web.kxlove.top/image/github.png" />
 </div>
 
 <!-- Profile Image with Glow Effect -->
