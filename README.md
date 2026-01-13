@@ -26,9 +26,6 @@
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">深海数据 | Ocean Stats 
 </h3>
 
-<div align="center">
-  <img width="98%" src="https://api.seaya.link/web?type=file" />
-</div>
 
 <!-- Profile Image with Glow Effect -->
 <div align="center">
@@ -39,6 +36,9 @@
     align="center"
     style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
   />
+</div>
+<div align="center">  
+<img width="98%" src="https://api.seaya.link/web?type=file" />
 </div>
 
 <!-- Achievements -->
