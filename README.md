@@ -1,1 +1,1 @@
-<div align="center"><img src="https://metrics.lecoq.io/kx9007?template=classic&config.timezone=Asia%2FShangha"></div>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kx9007)](https://github.com/anuraghazra/github-readme-stats)
