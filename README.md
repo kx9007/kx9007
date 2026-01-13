@@ -32,9 +32,6 @@
   <img 
     src="https://github-immortality.vercel.app/api?username=kx9007" 
     width="49%"
-    alt="profile image"
-    align="center"
-    style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;"
   />
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=kx9007"/>
 </div>
