@@ -33,7 +33,7 @@
     src="https://github-immortality.vercel.app/api?username=kx9007" 
     width="49%"
   />
-  <img width="49%" src="https://api.seaya.link/web?type=file"/>
+  <img width="49%" src="https://stats.justsong.cn/api/github?username=kx9007"/>
 </div>
 
 <br/>
