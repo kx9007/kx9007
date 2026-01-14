@@ -1,0 +1,37 @@
+# 工作流名称（可自定义，不影响核心功能）
+name: Generate GitHub Metrics
+# 触发规则：支持手动运行 + 每天自动更新
+on:
+  workflow_dispatch:          # 手动触发（核心，方便测试）
+  schedule:
+    - cron: "0 0 * * *"       # 每天凌晨自动更新卡片
+
+# 核心任务定义
+jobs:
+  metrics:
+    # 运行环境（官方推荐 Ubuntu 最新版）
+    runs-on: ubuntu-latest
+    # 必要权限（保证 Token 能读取数据、写入文件）
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      # 官方文档指定的核心步骤（完全保留）
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.34
+        # 配置参数（官方基础必选 + 适配你的需求）
+        with:
+          # 必选：GitHub Token（需在仓库 Secrets 中配置 GH_TOKEN）
+          token: ${{ secrets.GH_TOKEN }}
+          # 你的 GitHub 用户名
+          user: kx9007
+          # 输出文件名（官方默认推荐）
+          filename: metrics.svg
+          # 基础配置：关闭动画，提升加载速度
+          config_animations: no
+          # 启用常用插件（官方 40+ 插件中最实用的几个）
+          activity: yes        # 最新动态插件
+          languages: yes       # 语言占比插件
+          stars: yes           # 星标仓库插件
+          commits: yes         # 提交记录插件
