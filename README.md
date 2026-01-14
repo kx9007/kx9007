@@ -25,7 +25,7 @@
 
 <!-- GitHub Stats with Ocean Theme -->
 <h3 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">深海数据 | Ocean Stats 
+  <img src="https://count.getloli.com/@kx9007"/>
 </h3>
 
 
