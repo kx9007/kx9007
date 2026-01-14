@@ -22,21 +22,36 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           # 替换为你的 GitHub 用户名（比如 octocat）
           user: your-github-username
-          # 输出格式（SVG 矢量图，清晰度高）
-          output: metrics.svg
-          # 中文显示
-          config_lang: cn
-          # 卡片样式（可改：github/dracula/monokai 等）
-          config_theme: dracula
-          # 关闭动画（减少加载耗时）
-          config_animated: no
-          # 要展示的模块（按需开启/关闭）
-          plugin_lines: yes        # 代码行数
-          plugin_languages: yes    # 语言占比
-          plugin_stars: yes        # 星标数
-          plugin_commits: yes      # 提交次数
-          plugin_activity: yes     # 活动记录
-          plugin_followers: yes    # 粉丝数
+          
+          # 【修复】替换旧参数 output → filename（指定输出文件名）
+          filename: metrics.svg
+          
+          # 【修复】v3.34 已移除 config_lang，中文需用模板/自定义CSS
+          # 如需中文，可启用下方的 extras_css 自定义文字（示例：将 "Activity" 改为 "最新动态"）
+          extras_css: |
+            .activity-title { content: "最新动态" !important; }
+            .languages-title { content: "使用语言占比" !important; }
+            .stars-title { content: "最近星标" !important; }
+            .lines-title { content: "代码行数变化" !important; }
+          
+          # 【修复】替换旧参数 config_animated → config_animations
+          config_animations: no
+          
+          # 【修复】替换旧参数 config_theme → 用 template + 自定义CSS（v3.34 主题方式变更）
+          template: classic
+          extras_css: |
+            /* 暗黑主题样式（替代 dracula 主题） */
+            :root { --color-bg: #282a36; --color-text: #f8f8f2; --color-accent: #ff79c6; }
+            .activity-title { content: "最新动态" !important; }
+            .languages-title { content: "使用语言占比" !important; }
+
+          # 【修复】插件参数名调整（v3.34 插件参数无需 plugin_ 前缀）
+          commits: yes        # 替代 plugin_commits
+个关注者: yes      # 替代 plugin_followers
+          lines: yes          # 替代 plugin_lines
+          languages: yes      # 替代 plugin_languages
+          stars: yes          # 替代 plugin_stars
+          activity: yes       # 替代 plugin_activity
 
       - name: Upload metrics to repository
         uses: actions/upload-artifact@v4
