@@ -20,7 +20,7 @@
   <!-- visitor -->
   <img src="https://komarev.com/ghpvc/?username=kx9007&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
   <!-- wakatime -->
-  <a href="https://wakatime.com/badge/user/211a0761-bdee-4072-a53e-df684191d75b.svg" /></a>
+  <img src="https://wakatime.com/badge/user/211a0761-bdee-4072-a53e-df684191d75b.svg"/>
 </div>
 
 <!-- GitHub Stats with Ocean Theme -->
