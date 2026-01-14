@@ -1,2 +1,45 @@
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.9
+name: Generate GitHub Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天凌晨自动运行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          # 必选：GitHub Token（需在仓库 Secrets 中配置 GH_TOKEN）
+          token: ${{ secrets.GH_TOKEN }}
+          # 替换为你的 GitHub 用户名（比如 octocat）
+          user: your-github-username
+          # 输出格式（SVG 矢量图，清晰度高）
+          output: metrics.svg
+          # 中文显示
+          config_lang: cn
+          # 卡片样式（可改：github/dracula/monokai 等）
+          config_theme: dracula
+          # 关闭动画（减少加载耗时）
+          config_animated: no
+          # 要展示的模块（按需开启/关闭）
+          plugin_lines: yes        # 代码行数
+          plugin_languages: yes    # 语言占比
+          plugin_stars: yes        # 星标数
+          plugin_commits: yes      # 提交次数
+          plugin_activity: yes     # 活动记录
+          plugin_followers: yes    # 粉丝数
+
+      - name: Upload metrics to repository
+        uses: actions/upload-artifact@v4
+        with:
+          name: metrics
+          path: metrics.svg
