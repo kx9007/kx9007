@@ -31,10 +31,11 @@
 
 <!-- Profile Image with Glow Effect -->
 <div align="center">
-  <img 
+  <!-- <img 
     src="https://github-immortality.vercel.app/api?username=kx9007" 
     width="98%"
-  />
+  /> -->
+  <img src="https://raw.githubusercontent.com/kx9007/kx9007/c421f98792b8739d2d9faa2d233fcaa206fc386b/profile-3d-contrib/profile-night-rainbow.svg"/>
 </div>
 <div align="center">
 <img width="98%" src="https://stats.justsong.cn/api/github?username=kx9007"/>
