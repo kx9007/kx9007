@@ -65,7 +65,7 @@
 
 <div align="center">
   <img src="https://wakatime.com/share/@kx9007/8631f3c3-e2fa-49b8-9940-2b59dc34171b.svg" width="48%" />
-  <img src="https://wakatime.com/share/@kx9007/342fd037-62ea-4cf1-b438-b54b724a7c7f.svg" width="48%" />
+  <img src="https://wakatime.com/share/@kx9007/1e1c1cdd-1c08-4fc9-b6b9-48f2769b2846.svg" width="48%" />
 </div>
 
 <!-- Tech Stack with Wave Animation -->
