@@ -64,7 +64,8 @@
 </h3>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kx9007&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" />
+  <img src="https://wakatime.com/share/@kx9007/8631f3c3-e2fa-49b8-9940-2b59dc34171b.svg" width="48%" />
+  <img src="https://wakatime.com/share/@kx9007/342fd037-62ea-4cf1-b438-b54b724a7c7f.svg" width="48%" />
 </div>
 
 <!-- Tech Stack with Wave Animation -->
