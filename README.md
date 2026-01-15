@@ -51,10 +51,7 @@
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://files.guoqi.dev/wxpay.png" width="250px"  alt="wxpay" style="border-radius:10px;" />
-      </td>
-      <td align="center">
-        <img src="https://files.guoqi.dev/alipay.jpg" width="250px"  alt="alipay" style="border-radius:10px;" />
+        <img src="image/money.png" width="98%"  alt="wxpay" style="border-radius:10px;" />
       </td>
     </tr>
   </tbody>
