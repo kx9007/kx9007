@@ -51,7 +51,7 @@
   <tbody>
     <tr>
       <td align="center">
-        <img src="image/money.png" width="98%"  alt="wxpay" style="border-radius:10px;" />
+        <img src="image/money.png" width="100%"  alt="wxpay" style="border-radius:10px;" />
       </td>
     </tr>
   </tbody>
